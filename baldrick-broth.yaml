@@ -1,13 +1,23 @@
 model:
   project:
-    title: todo
-    description: todo
+    title: Document Preview, Sweetened and Simplified
+    description: A Flutter widget for previewing structured documents with customizable sections and fields, supporting conditional visibility, interactivity, and metadata display.
     version: 0.3.0
     keywords:
-      - todo
+      - Flutter
+      - Document Preview
+      - Sections
+      - Fields
+      - Metadata
+      - Conditional Visibility
+      - Review Tools
   readme:
     highlights:
-      - todo
+      - Supports hierarchical sections with customizable styling and collapsibility.
+      - Renders fields with type-specific views.
+      - Displays metadata such as sensitivity, GDPR justification, and retention policies.
+      - Enables review workflows with annotations, feedback, and field history tracking.
+      - Integrates interactive help buttons and conditional visibility logic for sections.
     related:
       - "[Material Design 3](https://m3.material.io/)"
       - "[Flutter Documentation](https://docs.flutter.dev/)"

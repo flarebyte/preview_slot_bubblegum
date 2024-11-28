@@ -1,21 +1,26 @@
-# preview\_slot\_bubblegum
+# preview_slot_bubblegum
 
 ![Experimental](https://img.shields.io/badge/status-experimental-blue)
 
-> todo
+> Document Preview, Sweetened and Simplified
 
-todo
+A Flutter widget for previewing structured documents with customizable sections and fields, supporting conditional visibility, interactivity, and metadata display.
 
-![Hero image for preview\_slot\_bubblegum](doc/preview_slot_bubblegum.jpeg)
+![Hero image for preview_slot_bubblegum](doc/preview_slot_bubblegum.jpeg)
 
 Highlights:
 
--   todo
+* Supports hierarchical sections with customizable styling and collapsibility.
+* Renders fields with type-specific views.
+* Displays metadata such as sensitivity, GDPR justification, and retention policies.
+* Enables review workflows with annotations, feedback, and field history tracking.
+* Integrates interactive help buttons and conditional visibility logic for sections.
+
+
 
 A few examples:
 
 BubblegumMessageSlot Example:
-
 ```dart
 BubblegumMessageSlot(
   slot: _infoSlot,
@@ -34,24 +39,20 @@ BubblegumMessageSlot(
 
 ## Documentation and links
 
--   [Code Maintenance :wrench:](MAINTENANCE.md)
--   [Code Of Conduct](CODE_OF_CONDUCT.md)
--   [Contributing :busts\_in\_silhouette: :construction:](CONTRIBUTING.md)
--   [Architectural Decision Records :memo:](DECISIONS.md)
--   [Contributors
-    :busts\_in\_silhouette:](https://github.com/flarebyte/preview_slot_bubblegum/graphs/contributors)
--   [Dependencies](https://github.com/flarebyte/preview_slot_bubblegum/network/dependencies)
--   [Glossary
-    :book:](https://github.com/flarebyte/overview/blob/main/GLOSSARY.md)
--   [Software engineering principles
-    :gem:](https://github.com/flarebyte/overview/blob/main/PRINCIPLES.md)
--   [Overview of Flarebyte.com ecosystem
-    :factory:](https://github.com/flarebyte/overview)
--   [Dart dependencies](DEPENDENCIES.md)
--   [Usage](USAGE.md)
--   [Example](example/example.dart)
+* [Code Maintenance :wrench:](MAINTENANCE.md)
+* [Code Of Conduct](CODE_OF_CONDUCT.md)
+* [Contributing :busts_in_silhouette: :construction:](CONTRIBUTING.md)
+* [Architectural Decision Records :memo:](DECISIONS.md)
+* [Contributors :busts_in_silhouette:](https://github.com/flarebyte/preview_slot_bubblegum/graphs/contributors)
+* [Dependencies](https://github.com/flarebyte/preview_slot_bubblegum/network/dependencies)
+* [Glossary :book:](https://github.com/flarebyte/overview/blob/main/GLOSSARY.md)
+* [Software engineering principles :gem:](https://github.com/flarebyte/overview/blob/main/PRINCIPLES.md)
+* [Overview of Flarebyte.com ecosystem :factory:](https://github.com/flarebyte/overview)
+* [Dart dependencies](DEPENDENCIES.md)
+* [Usage](USAGE.md)
+* [Example](example/example.dart)
 
 ## Related
 
--   [Material Design 3](https://m3.material.io/)
--   [Flutter Documentation](https://docs.flutter.dev/)
+* [Material Design 3](https://m3.material.io/)
+* [Flutter Documentation](https://docs.flutter.dev/)
