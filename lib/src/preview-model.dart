@@ -5,7 +5,10 @@ class CopperframePreviewField {
 
 class CopperframePreviewSection {
   String id;
-  final List<String> options; // heading, enabler, coordinate-x, coordinate-y, level
+  final List<String> options; // heading
+  int level;
+  int y;
+  String? enabler;
   List<CopperframePreviewField> fields;
 }
 
